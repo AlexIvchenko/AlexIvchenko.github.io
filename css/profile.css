@@ -1,0 +1,24 @@
+.profile-info {
+  line-height: 150%;
+  padding: 8px 20px;
+  text-align: left;
+}
+
+.profile-name {
+  text-align: left;
+  font-size: 19px;
+}
+
+.profile-info .label {
+    width: 165px;
+    color: #828282;
+}
+
+.label {
+  text-align: left;
+  float: left;
+}
+
+.labeled {
+  text-align: left;
+}

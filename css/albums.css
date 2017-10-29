@@ -1,0 +1,16 @@
+.albums-photo-module {
+    padding: 13px 20px 20px;
+    height: 123px;
+    text-align: center;
+}
+
+.albums-square-preview {
+    position: relative;
+    display: inline-block;
+    height: 123px;
+    width: 123px;
+    margin-left: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

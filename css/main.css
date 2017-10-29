@@ -1,0 +1,12 @@
+.main-avatar {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.main-avatar-image {
+    vertical-align: top;
+    border-radius: 2px;
+    max-width: 200px;
+}

@@ -1,0 +1,81 @@
+body {
+    background: #edeef0;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page-block {
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 15px 0 0;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.inner-header {
+  background-color: #507299;
+  height: 50px;
+}
+
+.sidebar {
+  width: 15%;
+  float: left;
+}
+
+.inner-sidebar {
+  margin: 5px;
+  min-height: 500px;
+}
+
+.main {
+  width: 25%;
+  float: left;
+}
+
+.inner-main {
+  margin: 5px;
+  min-height: 500px;
+}
+
+.wall {
+  width: 60%;
+  float: left;
+}
+
+.inner-wall {
+  margin: 5px;
+  min-height: 500px;
+}
+
+/* clearfix */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
