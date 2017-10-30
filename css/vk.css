@@ -21,7 +21,7 @@ h2 {
 }
 
 .content {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -43,33 +43,32 @@ h2 {
 }
 
 .sidebar {
-  width: 15%;
   float: left;
+  width: 15%;
 }
 
 .inner-sidebar {
-  margin: 5px;
-  min-height: 500px;
+
 }
 
 .main {
-  width: 25%;
+  width: 30%;
   float: left;
 }
 
 .inner-main {
-  margin: 5px;
-  min-height: 500px;
+  min-width: 250px;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 .wall {
-  width: 60%;
+  width: 55%;
   float: left;
 }
 
 .inner-wall {
-  margin: 5px;
-  min-height: 500px;
+  
 }
 
 /* clearfix */

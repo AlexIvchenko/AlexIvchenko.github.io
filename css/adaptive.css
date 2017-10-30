@@ -1,0 +1,46 @@
+@media (max-width: 1000px) {
+	.wall {
+		width: 300px;
+	}
+	.main {
+		width: 250px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.sidebar {
+		width: 35%;
+		text-align: left;
+	}
+
+	.albums {
+		display: none;
+	}
+
+	.main {
+		width: 65%
+	}
+
+	.inner-main {
+		max-width: 600px;
+	}
+
+	.wall {
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media (max-width: 600px) {
+	.sidebar {
+		display: none;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.profile {
+		display: none;
+	}
+}
